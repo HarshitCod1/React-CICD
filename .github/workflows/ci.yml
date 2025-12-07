@@ -1,11 +1,11 @@
 name: React Native Ci pipeline
 
 on:
- push:
-    branches:
-      -main
-      -master
-
+  push:
+      branches:
+       - main
+       - master
+        
 jobs: 
     build-and-test:
         runs-on: ubuntu-latest
