@@ -14,3 +14,8 @@ jobs:
             uses: actions/setup-node@v4
             with:
               node-version: "20"
+          - name: "Chcekout Repo"
+            uses: actions/checkout@v3
+
+          - name: "Install Dependenciees"
+            run: npm install
